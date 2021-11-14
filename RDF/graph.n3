@@ -1,0 +1,15 @@
+@prefix ns0: <http://purl.org/dc/terms#> .
+
+<data:text/plain;charset=utf-8;base64,QmlvVmlzaW9usun>
+  ns0:right-of <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9ubirds> ;
+  ns0:above <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9umountains> .
+
+<data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uland> ns0:right-of <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uriver> .
+<data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uhouse>
+  ns0:right-of <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uboat> ;
+  ns0:above <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uland> .
+
+<data:text/plain;charset=utf-8;base64,QmlvVmlzaW9ubirds> ns0:above <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9umountains> .
+<data:text/plain;charset=utf-8;base64,QmlvVmlzaW9utrees> ns0:above <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uhouse> .
+<data:text/plain;charset=utf-8;base64,QmlvVmlzaW9umountains> ns0:above <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uhouse>, <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uriver> .
+<data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uboat> ns0:above <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9uriver> .
