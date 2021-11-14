@@ -1,0 +1,13 @@
+PREFIX node: <data:text/plain;charset=utf-8;base64,QmlvVmlzaW9u>
+PREFIX rl: <http://purl.org/dc/terms#>
+
+node:sun rl:right-of node:birds .
+node:land rl:right-of node:river .
+node:house rl:right-of node:boat .
+node:sun rl:above node:mountains.
+node:birds rl:above node:mountains .
+node:trees rl:above node:house .
+node:mountains rl:above node:house .
+node:mountains rl:above node:river .
+node:house rl:above node:land .
+node:boat rl:above node:river .
